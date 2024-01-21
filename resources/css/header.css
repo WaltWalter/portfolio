@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+.headerContainer {
+    width: 100%;
+    display: inline;
+    z-index: 1;
+}
+
+.menuNavigation {
+    display: inline;
+    float: inline-start;
+    
+}
+
+.socialContainer {
+    display: inline;
+    float: inline-end;
+}
+
+.menuNav, .socialNav {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: Poppins;
+    transition: 0,5s ease-in-out; 
+}
+
+.socialNav:hover {
+    color: grey;
+}
+.menuNav:hover {
+    color: grey;
+}

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    transform: translateY(25px);
+}
+

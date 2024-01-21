@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sora&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+  }
+  
+  .blogContainer {
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    transform: translateY(40px);
+    margin: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  .large-font {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .xlarge-font {
+    font-size: 64px;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+  }
+
+  .button:hover {
+    transform: scale(1.12);
+  }
+  .imageBlog {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    padding-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }
