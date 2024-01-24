@@ -14,16 +14,6 @@
 <body>
 
     <div id="preloader" style="top: 0px; left: 0px;"></div>
-    <script>
-
-    window.addEventListener('load', () => {
-    const preload = document.querySelector('#preloader');
-    setTimeout( function() {
-        preload.classList.add('preload-finish');
-    }, 1000 );
-});
-        
-    </script>
     
     <header class="headerContainer">
         <nav class="menuNavigation">
@@ -108,6 +98,8 @@
     <footer>
         <p>Walt Walter <i class="fa-regular fa-copyright"></i> 2024</p>
     </footer>
+
+<script src="./preloader.js"></script>
     
 </body>
 </html>
