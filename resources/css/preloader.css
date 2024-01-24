@@ -13,6 +13,13 @@
     transition-delay: 2.5s;
 }
 
+@media screen and (max-width: 1000px) {
+    #preloader {
+      background-size: 75%;
+    }
+  }
+
+
 
 @keyframes float {
 	0% {
