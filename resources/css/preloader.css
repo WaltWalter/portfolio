@@ -1,12 +1,18 @@
 #preloader {
     background: white url(../images/sunshine.png) no-repeat center center;
-    background-size: 30%;
-    height: 100vh;
+    background-size: 35%;
+    height: 110vh;
     width: 100vw;
     position: fixed;
     z-index: 100;
-    animation: float 6s ease-in-out infinite;
+    animation: float 2.5s ease infinite;
 }
+
+.preload-finish {
+    opacity: 0;
+    transition-delay: 2.5s;
+}
+
 
 @keyframes float {
 	0% {
