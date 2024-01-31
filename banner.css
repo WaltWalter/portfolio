@@ -4,7 +4,7 @@
     animation: slidein 100s linear infinite;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
 }
 
 @keyframes slidein {
